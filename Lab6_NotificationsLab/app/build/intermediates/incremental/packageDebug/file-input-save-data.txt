@@ -1,0 +1,36 @@
+#Internal package file, do not edit.
+#Fri May 12 19:24:51 ICT 2017
+2.base=C\:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\build\\intermediates\\res\\resources-debug.ap_
+5.file=C\:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\activity_main.xml
+5.set=ANDROID_RESOURCE
+3.base=C\:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\build\\intermediates\\res\\resources-debug.ap_
+6.file=C\:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\build\\intermediates\\res\\resources-debug.ap_\\resources.arsc
+2.set=ANDROID_RESOURCE
+10.set=ANDROID_RESOURCE
+10.file=C\:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\raw\\lgaga.txt
+4.base=C\:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\build\\intermediates\\res\\resources-debug.ap_
+7.file=C\:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\build\\intermediates\\res\\resources-debug.ap_\\AndroidManifest.xml
+7.set=ANDROID_RESOURCE
+count=11
+0.file=C\:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\custom_notification.xml
+5.base=C\:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\build\\intermediates\\res\\resources-debug.ap_
+8.file=C\:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+4.set=ANDROID_RESOURCE
+6.base=C\:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\build\\intermediates\\res\\resources-debug.ap_
+1.file=C\:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\raw\\tswift.txt
+9.set=ANDROID_RESOURCE
+9.file=C\:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\activity_test_front_end.xml
+10.base=C\:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\build\\intermediates\\res\\resources-debug.ap_
+1.set=ANDROID_RESOURCE
+7.base=C\:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\build\\intermediates\\res\\resources-debug.ap_
+2.file=C\:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\raw\\rblack.txt
+6.set=ANDROID_RESOURCE
+0.base=C\:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\build\\intermediates\\res\\resources-debug.ap_
+8.base=C\:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+3.file=C\:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\ic_launcher.png
+3.set=ANDROID_RESOURCE
+1.base=C\:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\build\\intermediates\\res\\resources-debug.ap_
+9.base=C\:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\build\\intermediates\\res\\resources-debug.ap_
+4.file=C\:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\feed.xml
+8.set=DEX
+0.set=ANDROID_RESOURCE
