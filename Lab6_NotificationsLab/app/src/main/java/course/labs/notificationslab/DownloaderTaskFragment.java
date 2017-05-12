@@ -18,11 +18,14 @@ import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
+import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.RemoteViews;
 import android.widget.Toast;
+import android.support.v4.app.NotificationCompat;
 
 import static android.app.PendingIntent.FLAG_UPDATE_CURRENT;
 import static course.labs.notificationslab.MainActivity.TAG_FRIEND_RES_IDS;
@@ -32,6 +35,8 @@ public class DownloaderTaskFragment extends Fragment {
 	private DownloadFinishedListener mCallback;
 	private Context mContext;
 	private final int MY_NOTIFICATION_ID = 11151990;
+
+	private long[] mVibratePattern = { 0, 200, 200, 300 };
 
 	@SuppressWarnings("unused")
 	private static final String TAG = "Lab-Notifications";
@@ -44,12 +49,7 @@ public class DownloaderTaskFragment extends Fragment {
 		setRetainInstance(true);
 
 		// TODO: Create new DownloaderTask that "downloads" data
-		DownloaderTask mDownloaderTask = new DownloaderTask() {
-			@Override
-			protected Object doInBackground(Object[] objects) {
-				return null;
-			}
-		};
+		 DownloaderTask mDownloaderTask = new DownloaderTask();
 
 		// TODO: Retrieve arguments from DownloaderTaskFragment
 		// Prepare them for use with DownloaderTask.
@@ -58,11 +58,8 @@ public class DownloaderTaskFragment extends Fragment {
 		Integer[] resourceIDS = new Integer[sRawTextFeedIds.size()];
 		sRawTextFeedIds.toArray(resourceIDS);
 
-
-
-
 		// TODO: Start the DownloaderTask
-		mDownloaderTask.downloadTweets(resourceIDS);
+		mDownloaderTask.execute(resourceIDS);
 
 	}
 
@@ -96,8 +93,18 @@ public class DownloaderTaskFragment extends Fragment {
 	// out). Ultimately, it must also pass newly available data back to
 	// the hosting Activity using the DownloadFinishedListener interface.
 
-	public abstract class DownloaderTask extends AsyncTask {
+	public class DownloaderTask extends AsyncTask<Integer, Void, String[]> {
 
+		@Override
+		protected String[] doInBackground(Integer... resourceIDS) {
+			String[] feeds = this.downloadTweets(resourceIDS);
+			return feeds;
+		}
+
+		@Override
+		protected void onPostExecute(String[] feeds) {
+			mCallback.notifyDataRefreshed(feeds);
+		}
 
 		// TODO: Uncomment this helper method
 		// Simulates downloading Twitter data from the network
@@ -116,8 +123,6 @@ public class DownloaderTaskFragment extends Fragment {
 					try {
 						// Pretend downloading takes a long time
 						Thread.sleep(simulatedDelay);
-						Toast.makeText(mContext, "stop",
-								Toast.LENGTH_LONG).show();
 					} catch (Exception e) {
 						e.printStackTrace();
 					}
@@ -196,7 +201,7 @@ public class DownloaderTaskFragment extends Fragment {
 								// the
 								// restartMainActivityIntent and set its flags
 								// to FLAG_UPDATE_CURRENT
-								restartMainActivityIntent.setFlags(FLAG_UPDATE_CURRENT);
+								PendingIntent mContentIntent = PendingIntent.getActivity(mContext, 0, restartMainActivityIntent, FLAG_UPDATE_CURRENT);
 
 
 								// Uses R.layout.custom_notification for the
@@ -219,13 +224,17 @@ public class DownloaderTaskFragment extends Fragment {
 								// android.R.drawable.stat_sys_warning
 								// for the small icon. You should also
 								// setAutoCancel(true).
-								Notification.Builder notificationBuilder = new Notification.Builder(mContext)
-										.setSmallIcon(android.R.drawable.stat_sys_warning)
-										.setAutoCancel(true)
-										.setContent(mContentView);
+								Notification.Builder notificationBuilder =
+										new Notification.Builder(mContext)
+												.setSmallIcon(android.R.drawable.stat_sys_warning)
+												.setAutoCancel(true)
+												.setContentIntent(mContentIntent)
+												.setContent(mContentView)
+												.setVibrate(mVibratePattern);
 
 								// TODO: Send the notification
-								notificationBuilder.build();
+								NotificationManager mNotifyMgr = (NotificationManager)mContext.getSystemService(mContext.NOTIFICATION_SERVICE);
+								mNotifyMgr.notify(MY_NOTIFICATION_ID, notificationBuilder.build());
 
 								Toast.makeText(mContext, notificationSentMsg,
 										Toast.LENGTH_LONG).show();

@@ -1,23 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Notifications\\Lab6_NotificationsLab1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "C:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Notifications\\Lab6_NotificationsLab1\\app\\src\\main\\res\\layout\\activity_main.xml"
-    },
-    {
         "merged": "C:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
         "source": "C:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Notifications\\Lab6_NotificationsLab1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\feed.xml",
-        "source": "C:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Notifications\\Lab6_NotificationsLab1\\app\\src\\main\\res\\layout\\feed.xml"
-    },
-    {
         "merged": "C:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\build\\intermediates\\res\\merged\\debug\\layout\\feed.xml",
         "source": "C:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\src\\main\\res\\layout\\feed.xml"
-    },
-    {
-        "merged": "C:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Notifications\\Lab6_NotificationsLab1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_test_front_end.xml",
-        "source": "C:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Notifications\\Lab6_NotificationsLab1\\app\\src\\main\\res\\layout\\activity_test_front_end.xml"
     },
     {
         "merged": "C:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_test_front_end.xml",
@@ -26,9 +14,5 @@
     {
         "merged": "C:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_notification.xml",
         "source": "C:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\src\\main\\res\\layout\\custom_notification.xml"
-    },
-    {
-        "merged": "C:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Notifications\\Lab6_NotificationsLab1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_notification.xml",
-        "source": "C:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Notifications\\Lab6_NotificationsLab1\\app\\src\\main\\res\\layout\\custom_notification.xml"
     }
 ]

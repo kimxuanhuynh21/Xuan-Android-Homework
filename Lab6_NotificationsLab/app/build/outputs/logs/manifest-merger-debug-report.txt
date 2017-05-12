@@ -17,6 +17,14 @@ ADDED from C:\Users\Nhieu\Documents\Xuan-Android-Homework\Lab6_NotificationsLab\
 		ADDED from C:\Users\Nhieu\Documents\Xuan-Android-Homework\Lab6_NotificationsLab\app\src\main\AndroidManifest.xml:2:11-69
 uses-sdk
 ADDED from C:\Users\Nhieu\Documents\Xuan-Android-Homework\Lab6_NotificationsLab\app\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Nhieu\Documents\Xuan-Android-Homework\Lab6_NotificationsLab\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.2.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Nhieu\Documents\Xuan-Android-Homework\Lab6_NotificationsLab\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.2.0\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Nhieu\Documents\Xuan-Android-Homework\Lab6_NotificationsLab\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.2.0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Nhieu\Documents\Xuan-Android-Homework\Lab6_NotificationsLab\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Nhieu\Documents\Xuan-Android-Homework\Lab6_NotificationsLab\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.2.0\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Nhieu\Documents\Xuan-Android-Homework\Lab6_NotificationsLab\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.2.0\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:25.2.0] C:\Users\Nhieu\Documents\Xuan-Android-Homework\Lab6_NotificationsLab\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.2.0\AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
 		ADDED from C:\Users\Nhieu\Documents\Xuan-Android-Homework\Lab6_NotificationsLab\app\src\main\AndroidManifest.xml:9:9-38
 		INJECTED from C:\Users\Nhieu\Documents\Xuan-Android-Homework\Lab6_NotificationsLab\app\src\main\AndroidManifest.xml
@@ -27,6 +35,12 @@ ADDED from C:\Users\Nhieu\Documents\Xuan-Android-Homework\Lab6_NotificationsLab\
 		INJECTED from C:\Users\Nhieu\Documents\Xuan-Android-Homework\Lab6_NotificationsLab\app\src\main\AndroidManifest.xml
 application
 ADDED from C:\Users\Nhieu\Documents\Xuan-Android-Homework\Lab6_NotificationsLab\app\src\main\AndroidManifest.xml:11:5-34:19
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Nhieu\Documents\Xuan-Android-Homework\Lab6_NotificationsLab\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Nhieu\Documents\Xuan-Android-Homework\Lab6_NotificationsLab\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Nhieu\Documents\Xuan-Android-Homework\Lab6_NotificationsLab\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Nhieu\Documents\Xuan-Android-Homework\Lab6_NotificationsLab\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Nhieu\Documents\Xuan-Android-Homework\Lab6_NotificationsLab\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Nhieu\Documents\Xuan-Android-Homework\Lab6_NotificationsLab\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.2.0\AndroidManifest.xml:25:5-20
 	android:label
 		ADDED from C:\Users\Nhieu\Documents\Xuan-Android-Homework\Lab6_NotificationsLab\app\src\main\AndroidManifest.xml:14:9-41
 	android:allowBackup

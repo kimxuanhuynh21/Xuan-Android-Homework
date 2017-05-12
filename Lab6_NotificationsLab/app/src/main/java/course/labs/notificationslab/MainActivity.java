@@ -80,13 +80,14 @@ public class MainActivity extends Activity implements SelectionListener,
 		// The feed is fresh if it was downloaded less than 2 minutes ago
 		mIsFresh = (System.currentTimeMillis() - getFileStreamPath(
 				TWEET_FILENAME).lastModified()) < 400;
+
 		if (!mIsFresh) {
+
 			installDownloaderTaskFragment();
 
 			// TODO: Show a Toast message displaying
 			// R.string.download_in_progress string
-			Toast.makeText(this, getResources().getString(R.string.download_in_progress_string), Toast.LENGTH_SHORT);
-
+			Toast.makeText(this, getString(R.string.download_in_progress_string), Toast.LENGTH_LONG).show();
 
 			
 			
