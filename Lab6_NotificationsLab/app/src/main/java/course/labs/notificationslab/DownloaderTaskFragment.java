@@ -201,8 +201,8 @@ public class DownloaderTaskFragment extends Fragment {
 								// the
 								// restartMainActivityIntent and set its flags
 								// to FLAG_UPDATE_CURRENT
-								restartMainActivityIntent.setAction(Long.toString(System.currentTimeMillis()));
-								PendingIntent mContentIntent = PendingIntent.getActivity(mContext, 0, restartMainActivityIntent, PendingIntent.FLAG_UPDATE_CURRENT);
+//								restartMainActivityIntent.setFlags(PendingIntent.FLAG_UPDATE_CURRENT);
+								PendingIntent mContentIntent = PendingIntent.getActivity(mContext, MY_NOTIFICATION_ID, restartMainActivityIntent, PendingIntent.FLAG_UPDATE_CURRENT);
 
 
 								// Uses R.layout.custom_notification for the
