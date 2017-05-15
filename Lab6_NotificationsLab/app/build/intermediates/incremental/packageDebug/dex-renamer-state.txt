@@ -1,4 +1,7 @@
-#Sat May 13 03:38:35 ICT 2017
-base.0=C\:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+#Sat May 13 08:23:36 ICT 2017
+base.0=F\:\\MobileDevelopment\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_4a476464748ce6ab0b85cbe810451cf063345921
+renamed.1=classes2.dex
 renamed.0=classes.dex
-file.0=C\:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+file.1=F\:\\MobileDevelopment\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_bea15c27d7bb9c497d856451e9aa1f76653589fd\\classes.dex
+base.1=F\:\\MobileDevelopment\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_bea15c27d7bb9c497d856451e9aa1f76653589fd
+file.0=F\:\\MobileDevelopment\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_4a476464748ce6ab0b85cbe810451cf063345921\\classes.dex

@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
+        "outputFile": "F:\\MobileDevelopment\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
         "map": [
             {
                 "to": {
@@ -12,14 +12,14 @@
                     "endOffset": 201
                 },
                 "from": {
-                    "file": "C:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\src\\main\\res\\values-v14\\styles.xml",
+                    "file": "F:\\MobileDevelopment\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\src\\main\\res\\values-v14\\styles.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 220,
+                        "startOffset": 227,
                         "endLine": 9,
                         "endColumn": 12,
-                        "endOffset": 366
+                        "endOffset": 375
                     }
                 }
             }

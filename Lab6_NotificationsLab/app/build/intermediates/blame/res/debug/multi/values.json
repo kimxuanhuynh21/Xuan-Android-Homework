@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "outputFile": "F:\\MobileDevelopment\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,13 +11,13 @@
                     "endOffset": 108
                 },
                 "from": {
-                    "file": "C:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "F:\\MobileDevelopment\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 89,
+                        "startOffset": 92,
                         "endColumn": 57,
-                        "endOffset": 142
+                        "endOffset": 145
                     }
                 }
             },
@@ -30,13 +30,13 @@
                     "endOffset": 164
                 },
                 "from": {
-                    "file": "C:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "F:\\MobileDevelopment\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 147,
+                        "startOffset": 151,
                         "endColumn": 55,
-                        "endOffset": 198
+                        "endOffset": 202
                     }
                 }
             },
@@ -49,13 +49,13 @@
                     "endOffset": 206
                 },
                 "from": {
-                    "file": "C:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "F:\\MobileDevelopment\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 203,
+                        "startOffset": 208,
                         "endColumn": 41,
-                        "endOffset": 240
+                        "endOffset": 245
                     }
                 }
             },
@@ -68,13 +68,13 @@
                     "endOffset": 253
                 },
                 "from": {
-                    "file": "C:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "F:\\MobileDevelopment\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 377,
+                        "startOffset": 385,
                         "endColumn": 46,
-                        "endOffset": 419
+                        "endOffset": 427
                     }
                 }
             },
@@ -87,13 +87,13 @@
                     "endOffset": 307
                 },
                 "from": {
-                    "file": "C:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "F:\\MobileDevelopment\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 56,
+                        "startOffset": 59,
                         "endColumn": 53,
-                        "endOffset": 105
+                        "endOffset": 108
                     }
                 }
             },
@@ -106,13 +106,13 @@
                     "endOffset": 399
                 },
                 "from": {
-                    "file": "C:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "F:\\MobileDevelopment\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 424,
+                        "startOffset": 433,
                         "endColumn": 91,
-                        "endOffset": 511
+                        "endOffset": 520
                     }
                 }
             },
@@ -125,13 +125,13 @@
                     "endOffset": 487
                 },
                 "from": {
-                    "file": "C:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "F:\\MobileDevelopment\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 600,
+                        "startOffset": 611,
                         "endColumn": 87,
-                        "endOffset": 683
+                        "endOffset": 694
                     }
                 }
             },
@@ -144,13 +144,13 @@
                     "endOffset": 571
                 },
                 "from": {
-                    "file": "C:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "F:\\MobileDevelopment\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 516,
+                        "startOffset": 526,
                         "endColumn": 83,
-                        "endOffset": 595
+                        "endOffset": 605
                     }
                 }
             },
@@ -163,13 +163,13 @@
                     "endOffset": 631
                 },
                 "from": {
-                    "file": "C:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "F:\\MobileDevelopment\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 317,
+                        "startOffset": 324,
                         "endColumn": 59,
-                        "endOffset": 372
+                        "endOffset": 379
                     }
                 }
             },
@@ -182,13 +182,13 @@
                     "endOffset": 691
                 },
                 "from": {
-                    "file": "C:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "F:\\MobileDevelopment\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 257,
+                        "startOffset": 263,
                         "endColumn": 59,
-                        "endOffset": 312
+                        "endOffset": 318
                     }
                 }
             },
@@ -201,13 +201,13 @@
                     "endOffset": 780
                 },
                 "from": {
-                    "file": "C:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "F:\\MobileDevelopment\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 1,
-                        "startOffset": 685,
+                        "startOffset": 697,
                         "endColumn": 85,
-                        "endOffset": 769
+                        "endOffset": 781
                     }
                 }
             },
@@ -220,13 +220,13 @@
                     "endOffset": 848
                 },
                 "from": {
-                    "file": "C:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "F:\\MobileDevelopment\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 189,
+                        "startOffset": 194,
                         "endColumn": 67,
-                        "endOffset": 252
+                        "endOffset": 257
                     }
                 }
             },
@@ -239,13 +239,13 @@
                     "endOffset": 927
                 },
                 "from": {
-                    "file": "C:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "F:\\MobileDevelopment\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 110,
+                        "startOffset": 114,
                         "endColumn": 78,
-                        "endOffset": 184
+                        "endOffset": 188
                     }
                 }
             },
@@ -259,14 +259,14 @@
                     "endOffset": 1218
                 },
                 "from": {
-                    "file": "C:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\src\\main\\res\\values\\styles.xml",
+                    "file": "F:\\MobileDevelopment\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 186,
+                        "startOffset": 192,
                         "endLine": 12,
                         "endColumn": 12,
-                        "endOffset": 472
+                        "endOffset": 484
                     }
                 }
             },
@@ -280,14 +280,14 @@
                     "endOffset": 1378
                 },
                 "from": {
-                    "file": "C:\\Users\\Nhieu\\Documents\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\src\\main\\res\\values\\styles.xml",
+                    "file": "F:\\MobileDevelopment\\Xuan-Android-Homework\\Lab6_NotificationsLab\\app\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 510,
+                        "startOffset": 525,
                         "endLine": 17,
                         "endColumn": 12,
-                        "endOffset": 665
+                        "endOffset": 682
                     }
                 }
             }
