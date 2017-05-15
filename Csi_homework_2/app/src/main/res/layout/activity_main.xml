@@ -51,7 +51,8 @@
             <RadioGroup
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" >
+                android:layout_weight="1"
+                android:id="@+id/sizeRadioGroup" >
 
                 <RadioButton
                     android:text="Medium"
@@ -71,7 +72,8 @@
             <RadioGroup
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" >
+                android:layout_weight="1"
+                android:id="@+id/tortillaRadioGroup" >
 
                 <RadioButton
                     android:text="Corn"
@@ -113,14 +115,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:id="@+id/checkBox3" />
+                android:id="@+id/beefCbx" />
 
             <CheckBox
                 android:text="Rice"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:id="@+id/checkBox4" />
+                android:id="@+id/riceCbx" />
         </TableRow>
 
         <TableRow
@@ -133,14 +135,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:id="@+id/checkBox5" />
+                android:id="@+id/chickenCbx" />
 
             <CheckBox
                 android:text="Beans"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:id="@+id/checkBox6" />
+                android:id="@+id/beansCbx" />
 
         </TableRow>
 
@@ -154,14 +156,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:id="@+id/checkBox7" />
+                android:id="@+id/whiteFishCbx" />
 
             <CheckBox
                 android:text="Pico de Gallo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:id="@+id/checkBox8" />
+                android:id="@+id/picoCbx" />
         </TableRow>
 
         <TableRow
@@ -174,14 +176,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:id="@+id/checkBox9" />
+                android:id="@+id/cheeseCbx" />
 
             <CheckBox
                 android:text="Guacamole"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:id="@+id/checkBox12" />
+                android:id="@+id/guacamoleCbx" />
 
         </TableRow>
 
@@ -195,14 +197,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:id="@+id/checkBox" />
+                android:id="@+id/seaCbx" />
 
             <CheckBox
                 android:text="LBT"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:id="@+id/checkBox2" />
+                android:id="@+id/lbtCbx" />
         </TableRow>
 
         <TableRow
@@ -229,14 +231,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:id="@+id/checkBox13" />
+                android:id="@+id/sodaCbx" />
 
             <CheckBox
                 android:text="Margarita"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:id="@+id/checkBox14" />
+                android:id="@+id/margaritaCbx" />
         </TableRow>
 
 
@@ -250,14 +252,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:id="@+id/checkBox15" />
+                android:id="@+id/cervezaCbx" />
 
             <CheckBox
                 android:text="Tequila"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:id="@+id/checkBox16" />
+                android:id="@+id/tequilaCbx" />
         </TableRow>
 
 
