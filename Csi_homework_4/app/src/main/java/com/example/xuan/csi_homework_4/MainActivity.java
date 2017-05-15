@@ -23,6 +23,7 @@ import static android.R.attr.data;
 
 public class MainActivity extends AppCompatActivity {
     final Handler handler = new Handler();
+    private boolean IS_GAME_STOPPED = false;
     Random random = new Random();
 
     ProgressBar firstMonsterEatenProgressBar;
@@ -66,10 +67,12 @@ public class MainActivity extends AppCompatActivity {
         secondMonsterEatenProgressBar = (ProgressBar) findViewById(R.id.second_monster_eaten_progress_bar);
         countDownProgressBar = (ProgressBar) findViewById(R.id.count_down_progress_bar);
         bakingTimeProgressBar = (DonutProgress) findViewById(R.id.baking_time_progress_bar);
+        countDownProgressBar.setMax(120);
 
         totalCookiesInJarTextView = (TextView) findViewById(R.id.total_cookies_in_jar);
         timePassedTextView = (TextView) findViewById(R.id.time_passed);
         bakedCookiesTextView = (TextView) findViewById(R.id.baked_cookies);
+        bakedCookiesTextView.setText(String.valueOf(totalCookiesInJar));
 
         firstMonsterEatenCookiesTextView = (TextView) findViewById(R.id.first_monster_eaten_cookies);
         firstMonsterEatTimeLeftTextView = (TextView) findViewById(R.id.first_monster_eat_time_left);
@@ -126,7 +129,26 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private boolean isGameStopped(){
-        return firstMonsterEatenCookies < 100 && secondMonsterEatenCookies < 100 && countDownClock < 120;
+        boolean isGameStopped = !(firstMonsterEatenCookies < 100 && secondMonsterEatenCookies < 100 && countDownClock < 120);
+        if(IS_GAME_STOPPED == false && isGameStopped == true) {
+            IS_GAME_STOPPED = true;
+            Toast.makeText(this, getWinner(), Toast.LENGTH_SHORT).show();
+        }
+        return isGameStopped;
+    }
+
+    private String getWinner(){
+        String winner = "The winner is ";
+        if(firstMonsterEatenCookies > secondMonsterEatenCookies) {
+            winner += "Monster 1";
+        }
+        else if(firstMonsterEatenCookies < secondMonsterEatenCookies) {
+            winner += "Monster 2";
+        }
+        else if(firstMonsterEatenCookies == secondMonsterEatenCookies) {
+            winner = "Drawwwww";
+        }
+        return winner;
     }
 
     private void resumeGame(){
@@ -136,7 +158,7 @@ public class MainActivity extends AppCompatActivity {
     Runnable firstMonsterEating = new Runnable() {
         @Override
         public void run() {
-            if(isGameStopped()){
+            if(!isGameStopped()){
                 int randomEatenCookies = random.nextInt(totalCookiesInJar);
                 int randomTime = random.nextInt(4)+1;
                 firstMonsterEatenCookies += randomEatenCookies;
@@ -155,7 +177,7 @@ public class MainActivity extends AppCompatActivity {
     Runnable secondMonsterEating = new Runnable() {
         @Override
         public void run() {
-            if(isGameStopped()){
+            if(!isGameStopped()){
                 int randomEatenCookies = random.nextInt(totalCookiesInJar);
                 int randomTime = random.nextInt(4)+1;
                 secondMonsterEatenCookies += randomEatenCookies;
@@ -174,7 +196,7 @@ public class MainActivity extends AppCompatActivity {
     Runnable grandmaMonsterBaking = new Runnable() {
         @Override
         public void run() {
-            if(isGameStopped()) {
+            if(!isGameStopped()) {
                 int randomCookies = random.nextInt(9) + 1;
                 totalCookiesInJar += randomCookies;
                 totalCookiesInJarTextView.setText(String.valueOf(totalCookiesInJar));
@@ -186,7 +208,7 @@ public class MainActivity extends AppCompatActivity {
     Runnable countDown = new Runnable() {
         @Override
         public void run() {
-            if(isGameStopped()){
+            if(!isGameStopped()){
                 countDownClock++;
                 if(bakingTime == 5) {
                     bakingTime = 1;
